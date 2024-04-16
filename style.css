@@ -1,0 +1,102 @@
+//Overall styles
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    margin-bottom: 25rem;
+    text-align: center;
+}
+
+.header {
+   padding: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: brown;
+   
+   color: blanchedalmond;
+}
+
+.header header {
+    display: flexbox;
+    font-size: small;
+}
+
+
+.header header {
+    padding-top: 20px;
+    margin-left: 40px;
+    float: inline-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+
+.header h1 ul {
+list-style-type: circle;
+}
+
+.header div ul li {
+    display: inline-flexbox;
+    margin-right: 64px;
+}
+
+.section {
+    color: aqua;
+    height: 200px;
+    width: 900p
+}
+
+a {
+    color: blue;
+}
+
+p {
+    font-size: smaller;
+}
+
+.hero {
+    height: 900px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.portfolio {
+    height: 800px;
+    background-image: image(<img src="./images//Users/kadenroberts/Downloads/Screenshot_20231121_180726_Photos.jpg";
+}
+
+.header img > img {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+.section > portfolio {
+    display:block;
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+.portfolio > img{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    background-color: black;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:all .8s;    
+}
+
+.footer footer{
+    display: flexbox;
+   
+
+
+}
